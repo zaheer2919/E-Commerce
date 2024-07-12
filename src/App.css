@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: left;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+.cart {
+  margin-top: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-item img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
